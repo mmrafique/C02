@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+        */
+/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+      */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025-08-17 11:09:20 by muhmajee          #+#    #+#             */
 /*   Updated: 2025-08-17 11:09:20 by muhmajee         ###   ########.fr       */
