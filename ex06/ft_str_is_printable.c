@@ -3,21 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+        */
+/*   By: muhmajee <muhmajee@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-08-17 10:51:22 by muhmajee          #+#    #+#             */
-/*   Updated: 2025-08-17 10:51:22 by muhmajee         ###   ########.fr       */
+/*   Created: 2025/08/19 14:15:39 by muhmajee          #+#    #+#             */
+/*   Updated: 2025/08/19 14:15:39 by muhmajee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_printable(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[i] >= 32 && str[i] <= 126)
+		if (str[i] < 32 && str[i] > 126)
 			return (0);
 		i++;
 	}

@@ -3,21 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+      */
+/*   By: muhmajee <muhmajee@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-08-17 10:48:27 by muhmajee          #+#    #+#             */
-/*   Updated: 2025-08-17 10:48:27 by muhmajee         ###   ########.fr       */
+/*   Created: 2025/08/19 14:15:39 by muhmajee          #+#    #+#             */
+/*   Updated: 2025/08/19 14:15:39 by muhmajee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_str_is_uppercase(char *str)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[i] >= 'A' && str[i] <= 'Z')
+		if (str[i] < 'A' && str[i] > 'Z')
 			return (0);
 		i++;
 	}

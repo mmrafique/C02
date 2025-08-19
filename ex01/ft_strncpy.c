@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+      */
+/*   By: muhmajee <muhmajee@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-08-17 10:32:36 by muhmajee          #+#    #+#             */
-/*   Updated: 2025-08-17 10:32:36 by muhmajee         ###   ########.fr       */
+/*   Created: 2025/08/19 14:15:39 by muhmajee          #+#    #+#             */
+/*   Updated: 2025/08/19 14:15:39 by muhmajee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

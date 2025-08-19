@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+      */
+/*   By: muhmajee <muhmajee@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025-08-17 10:45:23 by muhmajee          #+#    #+#             */
-/*   Updated: 2025-08-17 10:45:23 by muhmajee         ###   ########.fr       */
+/*   Created: 2025/08/19 14:15:39 by muhmajee          #+#    #+#             */
+/*   Updated: 2025/08/19 14:15:39 by muhmajee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_str_is_lowercase(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (str[i] < 'a' && str[i] > 'z')
 			return (0);
 		i++;
 	}
