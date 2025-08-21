@@ -6,7 +6,7 @@
 /*   By: muhmajee <muhmajee@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/19 20:35:00 by muhmajee          #+#    #+#             */
-/*   Updated: 2025/08/19 21:01:04 by muhmajee         ###   ########.fr       */
+/*   Updated: 2025/08/21 18:18:51 by muhmajee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_putchar(char c)
 
 void	ft_putstr_non_printable(char *str)
 {
-	char		*hex;
+	char			*hex;
 	unsigned char	str_value;
 
 	hex = "0123456789abcdef";

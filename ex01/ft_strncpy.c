@@ -10,20 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strncpy(char *dst, char *src, unsigned int n)
+char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int	i;
 
 	i = 0;
 	while (i < n && src[i] != '\0')
 	{
-		dst[i] = src[i];
+		dest[i] = src[i];
 		i++;
 	}
 	while (i < n)
 	{
-		dst[i] = '\0';
+		dest[i] = '\0';
 		i++;
 	}
-	return (dst);
+	return (dest);
 }
